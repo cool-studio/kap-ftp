@@ -1,0 +1,25 @@
+{
+  "name": "kap-ftp",
+  "version": "1.0.0",
+  "description": "Kap plugin that uploads captures to a FTP server.",
+  "keywords": [
+    "kap-plugin"
+  ],
+  "type": "commonjs",
+  "main": "index.js",
+  "repository": "https://github.com/cool-studio/kap-ftp.git",
+  "author": "Jordan Bailey <jordan@cool.studio>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "basic-ftp": "^4.6.6"
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "standard": "^16.0.4"
+  }
+}
